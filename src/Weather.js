@@ -1,6 +1,6 @@
 import React from "react";
 import "./Weather.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 //import City from "./City";
 //import Day from "./Day";
 //import Time from "./Time";
