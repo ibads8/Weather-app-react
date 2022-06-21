@@ -1,0 +1,54 @@
+.Weather {
+  border: 1px solid #d0dfee;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Weather .btn {
+  width: 30%;
+}
+
+.Weather #description {
+  text-transform: capitalize;
+}
+
+.Weather .temperature {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.Weather .units {
+  position: relative;
+  top: -20px;
+}
+
+.Weather .weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  text-align: center;
+}
+
+.Weather .weather-forecast-date {
+  font-size: 16px;
+}
+
+.Weather .weather-forecast-temperatures {
+  font-size: 16px;
+}
+
+.Weather .min {
+  opacity: 0.7;
+}
+
+.Weather #temp {
+  font-size: 48px;
+  font-weight: bolder;
+}

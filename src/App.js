@@ -1,16 +1,15 @@
-import "./App.css";
-import Weather from "./Weather";
 import React from "react";
+import ReactDOM from "react-dom";
+import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from React!</h1>
-        <Weather city="Tegucigalpa" />
-      </header>
+      <Weather />
     </div>
   );
 }
 
-export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
