@@ -1,6 +1,8 @@
 import React from "react";
 import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 //import City from "./City";
 //import Day from "./Day";
 //import Time from "./Time";
@@ -34,10 +36,10 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="🔍" className="btn btn-primary" />
+            <input type="submit" value="🔍" className="Button Button-primary" />
           </div>
           <div className="col-3">
-            <input type="submit" value="📍" className="btn btn-light" />
+            <input type="submit" value="📍" className="Button Button-light" />
           </div>
         </div>
       </form>
