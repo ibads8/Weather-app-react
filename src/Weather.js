@@ -76,11 +76,11 @@ export default function Weather() {
       <div className="weather-forecast"></div>
       <span className="urls">
         This project was coded by Eu and is
-        <a href="https://github.com/ibads8/Weather-App">
+        <a href="https://github.com/ibads8/Weather-app-react">
           open-sourced on GitHub
         </a>
         and
-        <a href="https://app.netlify.com/sites/magical-parfait-bcdea2/deploys/628d8366bd28750cfc0774bf">
+        <a href="https://app.netlify.com/sites/magical-kataifi-9064b3/overview">
           hosted on Netlify
         </a>
       </span>
